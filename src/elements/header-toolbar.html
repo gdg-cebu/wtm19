@@ -38,13 +38,12 @@
         max-width: var(--max-container-width);
       }
 
-      .toolbar-logo {
+      .wtm-logo {
         display: block;
         width: 150px;
         height: 32px;
-        background-color: var(--default-primary-color);
         transition: background-color var(--animation);
-        -webkit-mask: url('/images/logo-monochrome.svg') no-repeat;
+        background-image: url('/images/logo.png') no-repeat;
       }
 
       .nav-items {
@@ -135,7 +134,7 @@
         ></paper-icon-button>
       </div>
       <div layout horizontal center flex>
-        <a class="toolbar-logo" href="/" hidden$="[[!viewport.isLaptopPlus]]" layout horizontal title="{$ title $}"></a>
+        <a class="wtm-logo" href="/" hidden$="[[!viewport.isLaptopPlus]]" layout horizontal title="{$ title $}"></a>
       </div>
 
       <paper-tabs
