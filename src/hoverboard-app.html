@@ -94,7 +94,7 @@
       }
 
       .toolbar-logo {
-        --iron-image-height: 32px;
+        --iron-image-height: 24px;
       }
 
       app-header-layout {
@@ -146,7 +146,7 @@
 
       <app-drawer id="drawer" slot="drawer" opened="[[ui.isDrawerOpened]]" swipe-open>
         <app-toolbar layout vertical start>
-          <plastic-image class="toolbar-logo" srcset="/images/logo-monochrome.svg" alt="{$ title $}"></plastic-image>
+          <plastic-image class="toolbar-logo" srcset="/images/logo-small.png" alt="{$ title $}"></plastic-image>
           <h2 class="dates">{$ dates $}</h2>
           <h3 class="location">{$ location.short $}</h3>
         </app-toolbar>
@@ -175,7 +175,7 @@
 
             <a
               class="bottom-drawer-link"
-              href$="[[_getTicketUrl(tickets)]]"
+              href="https://www.eventbrite.com/e/women-techmakers-2019-tickets-55548947397"
               target="_blank"
               rel="noopener noreferrer"
               on-tap="closeDrawer"

@@ -75,6 +75,8 @@
           <marked-element class="description" markdown="{$ block.description $}">
             <div slot="markdown-html"></div>
           </marked-element>
+
+          {% if block.callToAction %}
           <a
             href="{$ block.callToAction.link $}"
             {% if block.callToAction.newTab %}
@@ -86,6 +88,7 @@
               <iron-icon icon="hoverboard:arrow-right-circle"></iron-icon>
             </paper-button>
           </a>
+          {% endif %}
         </div>
         {% endfor %}
       </div>
