@@ -38,6 +38,12 @@
         };
       }
 
+      .image {
+        height: 640px;
+        background: url("https://scontent.fmnl4-2.fna.fbcdn.net/v/t1.0-0/s600x600/52956390_10214576839954262_7793173082910228480_n.jpg?_nc_cat=101&_nc_ht=scontent.fmnl4-2.fna&oh=4f1a7f9966ea93b59e5b28c8caa59c41&oe=5D16D3C3") center center no-repeat;
+        background-size: cover;
+      }
+
       @media (min-width: 640px) {
         :host {
           margin: 64px auto 72px;
@@ -63,14 +69,7 @@
     </style>
 
     <template is="dom-if" if="[[viewport.isTabletPlus]]">
-      <good-map
-        id="map"
-        api-key="{$ googleMapApiKey $}"
-        latitude="{$ location.mapCenter.latitude $}"
-        longitude="{$ location.mapCenter.longitude $}"
-        zoom="{$ location.pointer.zoom $}"
-        map-options="[[options]]"
-      ></good-map>
+      <div class="image"></div>
     </template>
 
     <div class="container" layout vertical end-justified fit$="[[viewport.isTabletPlus]]">
