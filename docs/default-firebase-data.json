@@ -69,21 +69,21 @@
   "partners" : [ {
     "logos" : [ {
       "order" : 0,
-      "logoUrl" : "../images/logos/the-company.png",
-      "name" : "The Company Cebu",
-      "url" : ""
-    } ],
-    "order" : 0,
-    "title" : "Venue Partner"
-  }, {
-    "logos" : [ {
-      "order" : 0,
       "logoUrl" : "../images/logos/accenture.png",
       "name" : "Accenture",
       "url" : ""
     } ],
-    "order" : 1,
+    "order" : 0,
     "title" : "Co-Presentor"
+  }, {
+    "logos" : [ {
+      "order" : 0,
+      "logoUrl" : "../images/logos/the-company.png",
+      "name" : "The Company Cebu",
+      "url" : ""
+    } ],
+    "order" : 1,
+    "title" : "Venue Partner"
   }, {
     "logos" : [ {
       "order" : 0,
@@ -102,6 +102,24 @@
     } ],
     "order" : 3,
     "title" : "Snacks Sponsor"
+  }, {
+    "logos" : [ {
+      "order" : 0,
+      "logoUrl" : "../images/logos/prworks.png",
+      "name" : "PR Works",
+      "url" : ""
+    } ],
+    "order" : 4,
+    "title" : "PR Partner"
+  }, {
+    "logos" : [ {
+      "order" : 0,
+      "logoUrl" : "../images/logos/golden-success-college.png",
+      "name" : "Golden Success College",
+      "url" : ""
+    } ],
+    "order" : 5,
+    "title" : "Special Thanks"
   } ],
   "schedule" : {
     "2019-03-09" : {

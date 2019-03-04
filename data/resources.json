@@ -1,6 +1,6 @@
 {
   "title": "Women Techmakers Cebu 2019",
-  "description": "Women Techmakers: Building a New Horizon",
+  "description": "Women Techmakers: International Women's Day",
   "image": "images/social-share.jpg",
   "keywords": "wtm, women, event, gdg, gde, wtm, google, programming, android, chrome, polymer, developers, web, cloud, androiddev",
   "dates": "March 9, 2019",
@@ -63,7 +63,7 @@
     "statisticsBlock": {
       "attendees": {
         "label": "Attendees",
-        "number": "500"
+        "number": "200"
       },
       "days": {
         "label": "Day",
