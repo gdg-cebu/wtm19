@@ -154,84 +154,84 @@
           "startTime" : "10:10"
         },
         {
-          "endTime" : "10:50",
+          "endTime" : "11:00",
           "sessions" : [ {
             "items" : [ 105 ]
           } ],
           "startTime" : "10:35"
         },
         {
-          "endTime" : "11:15",
+          "endTime" : "11:25",
           "sessions" : [ {
             "items" : [ 106 ]
           } ],
-          "startTime" : "10:50"
+          "startTime" : "11:00"
         },
         {
-          "endTime" : "11:30",
+          "endTime" : "11:40",
           "sessions" : [ {
             "items" : [ 107 ]
           } ],
-          "startTime" : "11:15"
+          "startTime" : "11:25"
         },
         {
           "endTime" : "12:00",
           "sessions" : [ {
             "items" : [ 108 ]
           } ],
-          "startTime" : "11:30"
+          "startTime" : "11:40"
         },
         {
-          "endTime" : "12:45",
+          "endTime" : "13:00",
           "sessions" : [ {
             "items" : [ 109 ]
           } ],
           "startTime" : "12:00"
         },
         {
-          "endTime" : "13:30",
+          "endTime" : "13:45",
           "sessions" : [ {
             "items" : [ 110 ]
           } ],
-          "startTime" : "12:45"
+          "startTime" : "13:00"
         },
         {
-          "endTime" : "14:00",
+          "endTime" : "14:15",
           "sessions" : [ {
             "items" : [ 112 ]
           }, {
             "items" : [ 111 ],
             "extend" : 6
           } ],
-          "startTime" : "13:30"
+          "startTime" : "13:45"
         },
         {
-          "endTime" : "14:30",
+          "endTime" : "14:45",
           "sessions" : [ {
             "items" : [ 113 ]
           } ],
-          "startTime" : "14:00"
+          "startTime" : "14:15"
         },
         {
-          "endTime" : "15:00",
+          "endTime" : "15:15",
           "sessions" : [ {
             "items" : [ 114 ]
           } ],
-          "startTime" : "14:30"
+          "startTime" : "14:45"
         },
         {
-          "endTime" : "15:30",
+          "endTime" : "15:50",
           "sessions" : [ {
             "items" : [ 115 ]
           } ],
-          "startTime" : "15:00"
+          "startTime" : "15:15"
         },
         {
           "endTime" : "16:30",
           "sessions" : [ {
             "items" : [ 116 ]
           } ],
-          "startTime" : "15:30"
+          "startTime" : "15:50"
         },
         {
           "endTime" : "17:30",
@@ -274,11 +274,11 @@
     },
     "105" : {
       "speakers" : [ "eve_dalisay" ],
-      "title" : "Women in Testing"
+      "title" : "Women in Software Quality: Quality Assurance"
     },
     "106" : {
       "speakers" : [ "timmy_dejesus" ],
-      "title" : "Women in Start-ups"
+      "title" : "Women in Start-ups: My Startup Journey"
     },
     "107" : {
       "speakers" : [ "frances_teves" ],
